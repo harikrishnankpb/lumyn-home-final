@@ -1,0 +1,217 @@
+/*----------------------------------------*/
+/*  01. THEME CSS START
+/*----------------------------------------*/
+
+// for image transparency 
+// img[src$=".webp"] {
+//   filter: brightness(0.1);
+// }
+
+
+html {
+  --container-max-widths: 1320px;
+
+  @media #{$xl} {
+    --container-max-widths: 1140px;
+  }
+
+  @media #{$lg} {
+    --container-max-widths: 960px;
+  }
+
+  @media #{$md} {
+    --container-max-widths: 720px;
+  }
+
+  @media #{$sm} {
+    --container-max-widths: 540px;
+  }
+}
+
+
+body {
+  background-color: #F5F5F5;
+  color: var(--secondary);
+
+  @include dark {
+    background-color: #121212;
+  }
+}
+
+.body-wrapper {
+  background-color: var(--white);
+  overflow: hidden;
+
+  @include dark {
+    background-color: var(--black);
+  }
+}
+
+.img_anim_reveal {
+  visibility: hidden;
+  overflow: hidden;
+
+  img {
+    object-fit: cover;
+    transform-origin: left;
+  }
+}
+
+.anim-reveal {
+  overflow: hidden;
+}
+
+.anim-reveal-line {
+  overflow: hidden;
+}
+
+
+.color {
+  &-white {
+    color: var(--white);
+  }
+
+  &-black {
+    color: var(--black);
+  }
+
+  &-primary {
+    color: var(--primary);
+  }
+
+  &-secondary {
+    color: var(--secondary);
+  }
+
+
+
+}
+
+
+// BG Color
+.wc-bg {
+
+  &-white {
+    background-color: var(--white);
+  }
+
+  &-black {
+    background-color: var(--black);
+  }
+
+  &-primary {
+    background-color: var(--primary);
+  }
+
+  &-secondary {
+    background-color: var(--secondary);
+  }
+
+  &-transparent {
+    background-color: transparent !important;
+  }
+}
+
+.zi {
+  &-1 {
+    z-index: 1;
+  }
+
+  &-2 {
+    z-index: 2;
+  }
+
+  &-0 {
+    z-index: 0;
+  }
+
+  &--1 {
+    z-index: -1;
+  }
+}
+
+
+// Box Layout
+.box-layout {
+  max-width: 1600px;
+  margin: 0 auto;
+  overflow: hidden !important;
+}
+
+
+// Text Border
+.text-underline {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+
+
+
+.vertically-center {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+// Text Indent
+.text-indent {
+  &-40 {
+    text-indent: 40px;
+  }
+
+  &-50 {
+    text-indent: 50px;
+  }
+}
+
+
+
+header {
+  margin-bottom: -1px;
+  z-index: 100;
+}
+
+section {
+  margin-bottom: -1px;
+}
+
+.dir-rtl {
+  direction: rtl;
+}
+
+
+
+.line-divider-sm {
+  height: 0.5px;
+  background-color: var(--black-9);
+
+  @include dark {
+    background-color: #E9E9E9;
+  }
+}
+
+
+// wordpress reset style 
+.admin-bar header,
+.admin-bar .body-wrapper {
+  margin-top: 32px;
+}
+
+
+
+// swiper rtl support 
+.swiper,
+.swiper-container {
+  direction: ltr;
+}
+
+.border-e-0 {
+  border-inline-end: 0 !important;
+}
+
+.border-s-0 {
+  border-inline-start: 0 !important;
+}

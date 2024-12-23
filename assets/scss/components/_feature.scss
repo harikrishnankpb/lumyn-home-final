@@ -1,0 +1,230 @@
+/*
+-----------------------------
+FEATURES STYLES 1
+-----------------------------
+*/
+
+.cf_feature {
+
+    // &.sample{
+    //     .thumb{}
+    //     .content{}
+    //     .title{}
+    //     .text{}
+    //     .btn-wrapper{}
+    // }
+    &.style-1 {
+        .thumb {
+            margin-bottom: 50px;
+
+            @media #{$lg} {
+                margin-bottom: 30px;
+            }
+        }
+
+        .title {
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 1.15;
+            margin-bottom: 20px;
+
+            &:hover {
+                color: var(--action);
+            }
+        }
+
+        .text {
+            color: var(--primary);
+        }
+
+        .btn-wrapper {
+            display: none;
+        }
+    }
+}
+
+/*
+-----------------------------
+FEATURES STYLES 2
+-----------------------------
+*/
+
+.cf_feature {
+    &.text-design {
+        padding: 60px;
+        padding-left: 70px;
+        padding-right: 0;
+        border-left: 1px solid rgba(18, 18, 18, 0.06);
+
+        @media #{$lg} {
+            padding-left: 30px;
+        }
+
+        @media #{$md} {
+            border: 0;
+            padding-left: 0;
+        }
+
+        @media #{$sm} {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .thumb {
+            margin-bottom: 30px;
+        }
+
+        .title-2 {
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 1.16;
+            text-decoration-line: underline;
+            margin-bottom: 40px;
+
+            @media #{$lg} {
+                font-size: 22px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    &.style-2 {
+        padding: 60px;
+        border-right: 1px solid rgba(18, 18, 18, 0.06);
+
+        @media #{$lg} {
+            padding: 30px;
+        }
+
+        @media #{$sm} {
+            padding-left: 0;
+        }
+
+        &:first-child {
+            padding-left: 0;
+        }
+
+        &:last-child {
+            border-right: 0;
+            padding-right: 0;
+        }
+    }
+}
+
+/*
+-----------------------------
+FEATURES STYLES 3
+-----------------------------
+*/
+.font-heading-Beatricetrial {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: var(--font_beatricetrial);
+    }
+}
+
+.cf_feature {
+    &.style-3 {
+        border-right: 1px solid #F1F1F1;
+        border-top: 1px solid #F1F1F1;
+        padding: 50px;
+        padding-bottom: 0;
+
+        @media #{$lg} {
+            padding: 30px;
+        }
+
+        @media #{$md} {
+            flex-basis: 45%;
+            border: 0;
+            padding-left: 0;
+        }
+
+        @media #{$sm} {
+            padding-left: 0;
+            margin-bottom: 0;
+            flex-basis: 100%;
+            padding-bottom: 20px;
+        }
+
+        &:first-child {
+            padding-left: 0;
+        }
+
+        &:last-child {
+            border-right: 0;
+        }
+
+        &:hover {
+            .title {
+                padding-left: 15px;
+
+                &::before {
+                    left: 0;
+                }
+            }
+        }
+
+        .content {
+            overflow: hidden;
+        }
+
+        .count-title {
+            color: var(--primary);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1;
+            margin-bottom: 25px;
+        }
+
+        .title {
+            color: var(--primary);
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 1.25;
+            margin-bottom: 25px;
+            transition: .3s;
+            position: relative;
+
+            &::before {
+                content: "";
+                position: absolute;
+                left: -10px;
+                top: 0;
+                height: 100%;
+                width: 1px;
+                background-color: var(--primary);
+            }
+
+            &:hover {
+                color: var(--action);
+            }
+        }
+
+        .text {
+            margin-bottom: 100px;
+
+            @media #{$md} {
+                margin-bottom: 50px;
+            }
+
+            @media #{$sm} {
+                margin-bottom: 20px;
+            }
+        }
+
+        .btn-underline {
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 0;
+            color: var(--primary);
+            text-transform: capitalize;
+        }
+    }
+}

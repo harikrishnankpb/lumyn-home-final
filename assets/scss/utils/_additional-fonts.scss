@@ -1,0 +1,139 @@
+// ----------------------------
+// Font Family
+// ---------------------------
+
+// recoleta trial 
+@font-face {
+    font-family: 'recoleta';
+    src: url("../fonts/recoleta/Latinotype - Recoleta Medium.otf");
+    font-display: swap;
+}
+
+// teko 
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+// dm sans 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+// plus jakarta sans 
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+// beatrice trial 
+@font-face {
+    font-family: 'beatricetrial';
+    src: url("../fonts/Beatrice/BeatriceTRIAL-Regular-BF64829e8f591fb.ttf");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'beatricetrial';
+    src: url("../fonts/Beatrice/BeatriceTRIAL-Medium-BF64829e8f63463.ttf");
+    font-weight: 500;
+    font-display: swap;
+}
+
+// getaway trial 
+@font-face {
+    font-family: 'getaway';
+    src: url("../fonts/getaway/getaway.otf");
+    font-display: swap;
+}
+
+// khand
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
+
+// instrument sans 
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+// space grotesk
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+// canela trial 
+@font-face {
+    font-family: 'canelatrial';
+    src: url("../fonts/Canela-Medium-Trial/Canela-Thin-Trial.otf");
+    font-display: swap;
+}
+
+// canela trial 
+@font-face {
+    font-family: 'bonvivant';
+    src: url("../fonts/BonVivant/BonVivant-Regular.ttf");
+    font-display: swap;
+}
+
+
+
+:root {
+    --font_recoleta: "recoleta";
+    --font_teko: "Teko", sans-serif;
+    --font_dmsans: "DM Sans", sans-serif;
+    --font_plusjakartasans: "Plus Jakarta Sans", sans-serif;
+    --font_beatricetrial: 'beatricetrial';
+    --font_khand: "Khand", sans-serif;
+    --font_getaway: "getaway";
+    --font_instrumentsans: "Instrument Sans", sans-serif;
+    --font_spacegrotesk: "Space Grotesk", sans-serif;
+    --font_canelatrial: "canelatrial";
+    --font_bonvivant: "bonvivant";
+}
+
+
+// Font Family Classes
+.font {
+    &-heading {
+        &-recoleta-medium {
+            @include heading (var(--font_recoleta), 500, 1.05);
+        }
+
+        &-teko-bold {
+            @include heading (var(--font_teko), 700, 0.94);
+        }
+
+        &-dmsans-medium {
+            @include heading (var(--font_dmsans), 500, 1.00);
+        }
+
+        &-plusjakartasans-regular {
+            @include heading (var(--font_plusjakartasans), 400, 1.00);
+        }
+
+        &-plusjakartasans-regular-2 {
+            @include heading (var(--font_plusjakartasans), 400, 1.08);
+        }
+
+        &-beatricetrial-regular {
+            @include heading (var(--font_beatricetrial), 400, 1.07);
+        }
+
+        &-beatricetrial-regular-2 {
+            @include heading (var(--font_beatricetrial), 400, 1.08);
+        }
+
+        &-beatricetrial-medium {
+            @include heading (var(--font_beatricetrial), 500, 1.08);
+        }
+
+        &-khand-bold {
+            @include heading (var(--font_khand), 700, 0.88);
+        }
+
+        &-instumentsans-medium {
+            @include heading (var(--font_instrumentsans), 500, 1.00);
+        }
+
+        &-instumentsans-semibold {
+            @include heading (var(--font_instrumentsans), 600, 1.00);
+        }
+
+
+        &-spacegrotesk-bold {
+            @include heading (var(--font_spacegrotesk), 700, 1.00);
+        }
+
+        &-canelatrial-thin {
+            @include heading (var(--font_canelatrial), 300, 1.20);
+        }
+    }
+}

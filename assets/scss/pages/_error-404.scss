@@ -1,0 +1,279 @@
+:root {
+    --theme: #121212;
+
+    .dark {
+        --border: #252525;
+    }
+}
+
+.section-title {
+    font-size: 60px;
+    margin-top: -17px;
+
+    @media #{$xxl} {
+        font-size: 60px;
+        margin-top: -17px;
+    }
+
+    @media #{$xl} {
+        font-size: 55px;
+        margin-top: -15px;
+    }
+
+    @media #{$lg} {
+        font-size: 44px;
+        margin-top: -12px;
+    }
+
+    @media #{$md} {
+        font-size: 40px;
+        margin-top: -11px;
+    }
+
+    @media #{$sm} {
+        font-size: 35px;
+        margin-top: 0;
+    }
+
+    @media #{$xs} {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    &.large {
+        font-size: 100px;
+
+        @media #{$xxl} {
+            font-size: 80px;
+        }
+
+        @media #{$xl} {
+            font-size: 70px;
+        }
+
+        @media #{$lg} {
+            font-size: 60px;
+        }
+
+        @media #{$md} {
+            font-size: 50px;
+
+        }
+
+        @media #{$sm} {
+            font-size: 40px;
+        }
+
+        @media #{$xs} {
+            font-size: 36px;
+        }
+    }
+}
+
+.section-spacing {
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+    @media #{$xxl} {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    @media #{$xl} {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    @media #{$lg} {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+.section-spacing-top {
+    padding-top: 150px;
+
+    @media #{$xxl} {
+        padding-top: 120px;
+    }
+
+    @media #{$xl} {
+        padding-top: 100px;
+    }
+
+    @media #{$lg} {
+        padding-top: 60px;
+    }
+}
+
+.section-spacing-bottom {
+    padding-bottom: 150px;
+
+    @media #{$xxl} {
+        padding-bottom: 120px;
+    }
+
+    @media #{$xl} {
+        padding-bottom: 100px;
+    }
+
+    @media #{$lg} {
+        padding-bottom: 60px;
+    }
+}
+
+.wc-btn-primary {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 0 30px 0 30px;
+    padding: 22px 38px;
+}
+
+
+
+.container {
+    &.large {
+        @media (min-width:1800px) {
+            max-width: 1750px;
+        }
+    }
+}
+
+/* header area style  */
+.header-area {
+    position: absolute;
+    top: 0;
+    inset-inline-start: 0;
+    inset-inline-end: 0;
+    width: 100%;
+
+    &.sticky {
+        background-color: var(--white);
+    }
+
+    .header-area__inner {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+        height: 100px;
+
+        @media #{$xxl} {
+            height: 80px;
+        }
+
+        &>*:nth-child(1) {
+            margin-inline-end: auto;
+        }
+    }
+
+
+
+    .header__meta {
+        @media #{$xs} {
+            display: none;
+        }
+    }
+
+
+    .header__navicon {
+        img {
+            @include rtl {
+                transform: rotateY(180deg);
+            }
+        }
+    }
+
+
+    .wc-btn-primary {
+        font-weight: 500;
+        padding: 12px 28px;
+        border-radius: 0 20px 0 20px;
+
+
+        &:hover {
+            @include dark {
+                color: var(--black);
+            }
+        }
+    }
+
+    .main-menu>ul>li:hover>a {
+        color: var(--white-2);
+    }
+}
+
+/* error area style  */
+.error-area {
+    height: 100vh;
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+
+    .section-title {
+        margin-top: 0;
+    }
+
+    .section-content {
+        text-align: center;
+        position: relative;
+
+        .shape-1 {
+            position: absolute;
+            top: calc(100% + 13px);
+            inset-inline-start: 110px;
+
+            @media #{$sm} {
+                display: none;
+            }
+        }
+
+        .error-shape {
+
+            img {
+                max-width: 464px;
+
+                @media #{$xl} {
+                    max-width: 364px;
+                }
+
+                @media #{$lg} {
+                    max-width: 264px;
+                }
+
+                @media #{$sm} {
+                    max-width: 200px;
+                }
+            }
+        }
+
+        .text {
+            max-width: 340px;
+            margin-inline: auto;
+        }
+
+        .section-title-wrapper {
+            margin-top: 42px;
+
+            @media #{$xl} {
+                margin-top: 32px;
+            }
+        }
+
+        .text-wrapper {
+            margin-top: 16px;
+        }
+
+        .btn-wrapper {
+            margin-top: 43px;
+
+            @media #{$xl} {
+                margin-top: 33px;
+
+            }
+        }
+    }
+
+
+}
