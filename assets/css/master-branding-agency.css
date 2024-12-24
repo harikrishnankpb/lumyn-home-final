@@ -9626,7 +9626,8 @@ section {
 }
 
 .work-area {
-    background-color: var(--white)
+    background-color: var(--white);
+    margin-top:40px
 }
 
 .dark .work-area {
