@@ -144,21 +144,31 @@
       <div class="offcanvas-3__menu-wrapper">
         <nav class="nav-menu offcanvas-3__menu">
           <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="about.html">about</a></li>
-            <li><a href="services.html">services</a></li>
-            <li><a href="service-details.html">service details</a></li>
-            <li><a href="works.html">projects</a></li>
-            <li><a href="work-details.html">project details</a></li>
-            <li><a href="team.html">team</a></li>
-            <li><a href="team-details.html">team details</a></li>
-            <li><a href="career.html">career</a></li>
-            <li><a href="career-details.html">career details</a></li>
-            <li><a href="faq.html">faq</a></li>
-            <li><a href="404.html">404 page</a></li>
-            <li><a href="blog.html">blog</a></li>
-            <li><a href="blog-details.html">blog details</a></li>
-            <li><a href="contact.html">Contact</a></li>
+
+            <li >
+              <a href="index.html">Home</a>
+              
+            </li>
+            <li >
+              <a href="branding-agency.html">Our work</a>
+              
+            </li>
+            <li >
+              <a href="#">Expertise</a>
+              
+            </li>
+            <li><a href="about.html">About</a></li>
+           
+            
+            <li>
+              <a href="#">Blog</a>
+              
+            </li>
+            <li >
+              <a href="#">Shop</a>
+              
+            </li>
+            
           </ul>
         </nav>
       </div>
@@ -190,8 +200,8 @@
       <div class="header-area__inner">
         <div class="header__logo">
           <a href="#">
-            <img class="show-light" src="assets/imgs/logo/logo.png" alt="Site Logo">
-            <img class="show-dark" src="assets/imgs/logo/logo-light.png" alt="Site Logo">
+            <img class="show-light" src="assets/imgs/logo/Lumyn.jpg" alt="Site Logo">
+            <img class="show-dark" src="assets/imgs/logo/Lumyn-dark.jpg" alt="Site Logo">
           </a>
         </div>
         <div class="header__nav pos-center">
@@ -390,7 +400,11 @@
   position: relative;
   z-index: 1;
 }
-
+@media screen and (min-width: 200px) and (max-width: 991px) {
+    .footer-12 {
+        padding: 60px 0;
+    }
+}
 .footer-line-12 {
   width: 100%;
   height: 1px;
@@ -398,14 +412,23 @@
   display: block;
   margin: 75px 0;
 }
-
+@media screen and (min-width: 200px) and (max-width: 991px) {
+    .footer-line-12 {
+        margin: 50px 0;
+    }
+}
 .footer-heading-12 {
   font-size: 55px;
   line-height: 65px;
   color: #8F8F8F;
   font-weight: 600;
 }
-
+@media screen and (max-width: 767px) {
+    .footer-heading-12 {
+        font-size: 28px !important;
+        line-height: 36px !important;
+    }
+}
 .footer-heading-12 a {
   text-decoration: none;
   color: #FFF;
@@ -414,7 +437,12 @@
   -webkit-text-fill-color: transparent; */
   font-weight: 600;
 }
-
+/* @media (min-width: 1200px) {
+  .footer-heading-12 a {
+    text-decoration: none;
+    font-weight: 200;
+}
+} */
 .foot_link_sect-12 a {
   display: block;
 }
@@ -436,13 +464,28 @@
   text-align: right;
   margin-bottom: 85px;
 }
-
+@media screen and (min-width: 200px) and (max-width: 991px) {
+    .footer-logo-12 {
+        text-align: left;
+        margin-bottom: 25px;
+    }
+}
+@media screen and (max-width: 767px) {
+    a.footer-logo-12 img {
+        max-width: 80px;
+        margin-bottom: 15px;
+    }
+}
 .foot_link_sect-12 a.back_btn-12 img {
   margin-left: 5px;
   width: 15px;
   height: 13px;
 }
-
+@media screen and (max-width: 767px) {
+    .foot_link_sect-12 {
+        margin-bottom: 50px;
+    }
+}
 .bottom-footer-12 {
   display: flex;
   align-items: center;
@@ -457,12 +500,21 @@
   margin: 0;
   padding: 0;
 }
-
+@media screen and (min-width: 200px) and (max-width: 991px) {
+    .address-list-12 {
+        flex-wrap: wrap;
+    }
+}
 .address-list-12 li {
   max-width: 245px;
   width: 100%;
 }
-
+@media screen and (min-width: 200px) and (max-width: 991px) {
+    .address-list-12 li {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+}
 .address-list-12 li img {
   max-width: 245px;
   height: 90px;
@@ -470,7 +522,18 @@
   border-radius: 100px;
   margin-bottom: 20px;
 }
-
+/* @media screen and (max-width: 767px) {
+    .address-list-12 li img {
+        height: 75px;
+    }
+} */
+@media screen and (max-width: 767px) {
+    .address-list-12 li {
+        /* max-width: 100%; */
+        /* margin: 0 auto; */
+        width: 100% !important;
+    }
+}
 .address-list-12 li p,
 .address-list-12 li a {
   font-size: 16px;
@@ -504,7 +567,11 @@
   height: 20px;
 }
 
-
+@media screen and (max-width: 767px) {
+    .social-link-12 li img {
+        height: 15px;
+    }
+}
 .social-link-12 li:last-child {
   margin-right: 0;
 }
@@ -536,11 +603,12 @@
     flex-direction: column-reverse;
     align-items: flex-start !important;
   }
-  /* @media screen and (min-width: 200px) and (max-width: 991px) {
-  .footer-12 {
-    padding: 60px 0;
-  }
- */
+  @media screen and (max-width: 767px) {
+    .footer-wrapper-12 {
+        flex-direction: column-reverse;
+        align-items: flex-start !important;
+    }
+}
  .btn-text-12 {
     padding: 10px 20px;
   }
@@ -548,7 +616,18 @@
   display: inline-flex;
   align-items: center;
 }
-
+/* .btn-fill-12 {
+  background: #000;
+  position: absolute;
+  width: 150%;
+  height: 200%;
+  border-radius: 50%;
+  top: -50%;
+  left: -25%;
+  transform: translate3d(0, -76%, 0);
+  will-change: transform;
+  transition: background-color ease-in-out 0.25s;
+} */
 .circle-arrow-12 {
   width: 23px;
   height: 23px;
@@ -609,9 +688,9 @@
           <div class="container">
               <div class="row-12">
                   <div class="col-12">
-                      <div class="d-flex footer-wrapper justify-content-between w-100">
+                      <div class="d-flex footer-wrapper-12 justify-content-between w-100">
                           <div>
-                              <h3 class="footer-heading-12">If you want to join our growing <br> tribe, drop us an lumyn at
+                              <h3 class="footer-heading-12">If you want to join our growing <br> tribe, drop us an Lumyn at
                               </h3>
                               <h3 class="footer-heading-12"><a href="mailto:info@teamlumyn.com">info@teamlumyn.com</a></h3>
                           </div>
@@ -678,7 +757,7 @@
                       </ul>
                       <div class="bottom-footer-12">
                           <div class="btn nav-item-12 px-0 border-0 btn-normal-12 see-the-work-btn">
-                              <a href="contact-us.html" class="btn-click-12 magnetic white-text-12" data-strength="25"
+                              <a href="contact.html" class="btn-click-12 magnetic white-text-12" data-strength="25"
                                   data-strength-text="15">
                                   <div class="btn-fill-12"></div>
                                   <span class="btn-text-12">
