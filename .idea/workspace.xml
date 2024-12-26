@@ -4,21 +4,175 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b0c8fe4-b3ad-4383-b554-729ae7d7a2b1" name="Changes" comment="" />
+    <list default="true" id="1b0c8fe4-b3ad-4383-b554-729ae7d7a2b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/imgs/logo/Lumyn-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-about copy.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-about copy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-about-bold.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-about-bold.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-about.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-ai-agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-ai-agency.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-blog-bold.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-blog-bold.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-blog-details-bold.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-blog-details-bold.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-blog-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-blog-details.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-branding-agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-branding-agency.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-career-bold.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-career-bold.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-career-details-bold.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-career-details-bold.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-career-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-career-details.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-career.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-career.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-contact-bold.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-contact-bold.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-corporate-agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-corporate-agency.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-creative-agency-classic.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-creative-agency-classic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-creative-agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-creative-agency.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-design-studio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-design-studio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-digital-agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-digital-agency.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-error-404-bold.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-error-404-bold.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-error-404.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-error-404.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-faq-bold.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-faq-bold.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-faq.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-marketing-agency copy.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-marketing-agency copy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-marketing-agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-marketing-agency.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-modern-agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-modern-agency.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-photography-studio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-photography-studio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-portfolio-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-portfolio-1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-portfolio-2 copy.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-portfolio-2 copy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-portfolio-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-portfolio-2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-portfolio-3.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-portfolio-3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-portfolio-4.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-portfolio-4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-portfolio-carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-portfolio-carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-portfolio-material.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-portfolio-material.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-portfolio-slicer.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-portfolio-slicer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-portfolio-spring.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-portfolio-spring.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-seo-agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-seo-agency.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-service-details-bold.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-service-details-bold.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-service-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-service-details.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-services copy.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-services copy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-services-bold.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-services-bold.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-services.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-startup-agency copy.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-startup-agency copy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-startup-agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-startup-agency.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-team-bold.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-team-bold.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-team-details-bold.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-team-details-bold.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-team-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-team-details.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-team.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-team.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-video-production.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-video-production.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-web-agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-web-agency.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-work-details-bold.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-work-details-bold.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-work-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-work-details.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-works-bold.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-works-bold.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/master-works.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/master-works.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/imgs/shape/header-bg-dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/imgs/shape/header-bg-dark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_blog-bold.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_blog-bold.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_blog-details-bold.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_blog-details-bold.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_blog-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_blog-details.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_branding-agency.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_branding-agency.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_career-bold.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_career-bold.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_career-details-bold.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_career-details-bold.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_career-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_career-details.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_career.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_career.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_contact-bold.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_contact-bold.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_corporate-agency.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_corporate-agency.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_creative-agency-classic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_creative-agency-classic.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_digital-agency.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_digital-agency.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_error-404-bold.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_error-404-bold.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_error-404.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_error-404.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_faq-bold.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_faq-bold.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_faq.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_faq.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_modern-agency.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_modern-agency.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_photography-studio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_photography-studio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_portfolio-carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_portfolio-carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_portfolio-material.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_portfolio-material.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_portfolio-slicer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_portfolio-slicer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_portfolio-spring.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_portfolio-spring.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_seo-agency.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_seo-agency.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_service-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_service-details.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_services.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_startup-agency.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_startup-agency.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_team-bold.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_team-bold.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_team-details-bold.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_team-details-bold.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_team-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_team-details.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_team.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_video-production.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_video-production.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_work-details-bold.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_work-details-bold.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_work-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_work-details.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_works-bold.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_works-bold.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/pages/_works.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/_works.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/utils/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/utils/_global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/utils/_theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/utils/_theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/utils/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/utils/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "harikrishnankpb"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/harikrishnankpb/lumyn-home-final.git",
+    "accountId": "4c1d8191-84da-49e6-8d7b-34eb4f309a80"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2qlMry41UFMPjv1AfWoBVI1HRjN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "dev-hari",
+    "last_opened_file_path": "/Users/harikrishnankp/Work/freelance/lumyn-home-final/assets/imgs/logo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/imgs/logo" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b0c8fe4-b3ad-4383-b554-729ae7d7a2b1" name="Changes" comment="" />
+      <created>1735232916661</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735232916661</updated>
+      <workItem from="1735232919257" duration="2789000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

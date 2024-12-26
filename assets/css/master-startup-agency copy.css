@@ -18,11 +18,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 :root {
-  --primary: #121212;
+  --primary: #00ed85;
   --secondary: #555555;
   --border: #EFEFEF;
-  --theme: #121212;
-  --black: #121212;
+  --theme: #00ed85;
+  --black: #00ed85;
   --black-2: #555555;
   --white: #212236;
   --white-2: #999999;
@@ -3771,7 +3771,7 @@ Pagination
   z-index: 9999;
 }
 .dark .header-area.sticky {
-  background-color: #121212;
+  background-color: #00ed85;
 }
 .header-area.sticky .header-area__inner {
   height: 70px !important;
@@ -4302,7 +4302,7 @@ body {
   color: var(--secondary);
 }
 .dark body {
-  background-color: #121212;
+  background-color: #00ed85;
 }
 
 .body-wrapper {
@@ -9022,7 +9022,7 @@ FEATURES STYLES 3
   background-image: linear-gradient(180deg, #fff 0%, #fff 47%, rgba(255, 217, 224, 0.21) 47%);
 }
 .dark .team-area .team-card-box {
-  background-image: linear-gradient(180deg, #121212 0%, #121212 47%, rgba(255, 217, 224, 0.21) 47%);
+  background-image: linear-gradient(180deg, #00ed85 0%, #00ed85 47%, rgba(255, 217, 224, 0.21) 47%);
 }
 @media only screen and (max-width: 1199px) {
   .team-area .team-card-box {

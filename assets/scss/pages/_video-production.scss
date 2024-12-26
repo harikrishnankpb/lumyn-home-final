@@ -1,5 +1,5 @@
 :root {
-    --theme: #121212;
+    --theme: #00ed85;
     --border: rgba(18, 18, 18, 0.08);
 
     .dark {
@@ -234,7 +234,7 @@ h6 {
         }
 
         @include dark {
-            border-color: #121212;
+            border-color: #00ed85;
         }
 
         @media #{$xxl} {

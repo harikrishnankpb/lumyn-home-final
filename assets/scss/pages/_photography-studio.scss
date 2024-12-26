@@ -1,6 +1,6 @@
 :root {
-    --theme: #121212;
-    --border: #121212;
+    --theme: #00ed85;
+    --border: #00ed85;
 
     .dark {
         --primary: #FBF8F7;
@@ -429,7 +429,7 @@ p {
     padding-top: 130px;
 
     @include dark {
-        background-image: linear-gradient(180deg, #121212 130px, #1B1B1B 130px, #1B1B1B calc(100% - 350px), #121212 calc(100% - 350px));
+        background-image: linear-gradient(180deg, #00ed85 130px, #1B1B1B 130px, #1B1B1B calc(100% - 350px), #00ed85 calc(100% - 350px));
 
     }
 
@@ -438,7 +438,7 @@ p {
         padding-top: 70px;
 
         @include dark {
-            background-image: linear-gradient(180deg, #121212 70px, #1B1B1B 70px, #1B1B1B calc(100% - 350px), #121212 calc(100% - 350px));
+            background-image: linear-gradient(180deg, #00ed85 70px, #1B1B1B 70px, #1B1B1B calc(100% - 350px), #00ed85 calc(100% - 350px));
 
         }
     }
@@ -448,7 +448,7 @@ p {
         background-image: linear-gradient(180deg, #FBF8F7 0px, #F3E9E2 0px, #F3E9E2 calc(100% - 350px), #FBF8F7 calc(100% - 350px));
 
         @include dark {
-            background-image: linear-gradient(180deg, #121212 0px, #1B1B1B 0px, #1B1B1B calc(100% - 350px), #121212 calc(100% - 350px));
+            background-image: linear-gradient(180deg, #00ed85 0px, #1B1B1B 0px, #1B1B1B calc(100% - 350px), #00ed85 calc(100% - 350px));
 
         }
     }
@@ -1065,7 +1065,7 @@ p {
     background-image: linear-gradient(180deg, #F3E9E2 70%, #FBF8F7 70%);
 
     @include dark {
-        background-image: linear-gradient(180deg, #1B1B1B 70%, #121212 70%);
+        background-image: linear-gradient(180deg, #1B1B1B 70%, #00ed85 70%);
 
     }
 
@@ -1577,7 +1577,7 @@ p {
     background-color: #F3E9E2;
 
     @include dark {
-        background-color: #121212;
+        background-color: #00ed85;
     }
 
     &-inner {

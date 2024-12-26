@@ -1580,7 +1580,7 @@
         background-image: linear-gradient(180deg, #fff 0%, #fff 47%, rgba(255, 217, 224, 0.21) 47%);
 
         @include dark {
-            background-image: linear-gradient(180deg, #121212 0%, #121212 47%, rgba(255, 217, 224, 0.21) 47%);
+            background-image: linear-gradient(180deg, #00ed85 0%, #00ed85 47%, rgba(255, 217, 224, 0.21) 47%);
         }
 
         @media #{$lg} {

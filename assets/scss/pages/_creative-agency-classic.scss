@@ -1,5 +1,5 @@
 :root {
-    --theme: #121212;
+    --theme: #00ed85;
     --border: rgba(18, 18, 18, 0.08);
 
     .dark {
@@ -1042,7 +1042,7 @@
         background-color: #171717;
 
         @include dark {
-            background-color: #121212;
+            background-color: #00ed85;
         }
 
         @media #{$lg} {
