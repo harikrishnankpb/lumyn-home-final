@@ -5783,8 +5783,8 @@ section {
     font-size: 16px;
     line-height: 1;
     color: var(--white);
-    background-color: var(--primary);
-    border: 1px solid var(--primary);
+    background-color: #00ed85;
+    border: 1px solid #00ed85;
     border-radius: 15px;
     text-transform: capitalize;
     transition: all .3s;
@@ -8921,13 +8921,13 @@ section {
 }
 
 .hero-area {
-    padding-top: 100px;
+    /* padding-top: 100px; */
     overflow: hidden
 }
 
 @media only screen and (max-width: 1919px) {
     .hero-area {
-        padding-top: 80px
+        /* padding-top: 80px */
     }
 }
 
@@ -9449,7 +9449,7 @@ section {
 }
 
 .works-area .work-box .thumb img {
-    width: 100%;
+    width: 60%;
     transition: all .5s
 }
 
