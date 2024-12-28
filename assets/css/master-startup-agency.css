@@ -4524,7 +4524,7 @@ h6 {
 }
 
 .btn-close {
-    content: "";
+    content: "";
     font-family: "icomoon";
     font-size: 16px;
     opacity: 1;
@@ -5646,7 +5646,7 @@ section {
 
 .progress-wrap::after {
     position: absolute;
-    content: "";
+    content: "";
     font: var(--fa-font-solid);
     text-align: center;
     line-height: 46px;
@@ -6826,7 +6826,7 @@ section {
 }
 
 .main-menu li.menu-item-has-children>a:after {
-    content: "";
+    content: "";
     font-family: var(--font_awesome);
     margin-inline-start: 5px;
     font-weight: 600;
@@ -8870,7 +8870,7 @@ section {
     gap: 20px;
     position: relative;
     height: 100px;
-    border-bottom: 1px solid var(--border)
+    /* border-bottom: 1px solid var(--border) */
 }
 
 @media only screen and (max-width: 1919px) {
@@ -8881,7 +8881,7 @@ section {
 
 .header-area .header-area__inner>*:nth-child(2) {
     margin-inline-end: auto;
-    border-inline-start: 1px solid var(--border);
+    /* border-inline-start: 1px solid var(--border); */
     height: 100%;
     display: flex;
     align-items: center;
@@ -9350,7 +9350,7 @@ section {
 }
 
 .hero-area .content-second {
-    border-inline-start: 1px solid var(--border);
+    /* border-inline-start: 1px solid var(--border); */
     padding-inline-start: 90px;
     padding-bottom: 100px;
     padding-top: 86px
@@ -11182,3 +11182,5 @@ section {
 }
 
 /*# sourceMappingURL=master-startup-agency.css.map */
+
+
