@@ -8927,6 +8927,11 @@ section {
 .hero-area {
 	position: relative;
 	overflow: hidden;
+	align-items: stretch;
+	height: 100vh; /* Makes the hero area fill the entire viewport height */
+    display: flex; /* Optional: Center content vertically */
+    flex-direction: column; /* Stack child elements vertically */
+    justify-content: center; /* Vertically center content */
   }
   
   .background-video {
@@ -9184,7 +9189,7 @@ section {
 .hero-area .section-content {
     display: grid;
     gap: 0px 90px;
-    grid-template-columns: 305px 1fr auto
+    grid-template-columns: 2fr 2fr auto
 }
 
 @media only screen and (max-width: 1919px) {
@@ -9358,7 +9363,7 @@ section {
     /* border-inline-start: 1px solid var(--border); */
     padding-inline-start: 90px;
     padding-bottom: 100px;
-    padding-top: 86px
+    padding-top: 86px;
 }
 
 @media only screen and (max-width: 1399px) {
