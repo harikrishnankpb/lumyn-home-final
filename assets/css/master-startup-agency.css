@@ -9190,20 +9190,20 @@ section {
 @media only screen and (max-width: 1919px) {
     .hero-area .section-content {
         gap: 0px 60px;
-        grid-template-columns: 255px 1fr auto
+        grid-template-columns: 10px 1fr auto
     }
 }
 
 @media only screen and (max-width: 1399px) {
     .hero-area .section-content {
         gap: 0px 50px;
-        grid-template-columns: 235px 1fr auto
+        grid-template-columns: 10px 1fr auto
     }
 }
 
 @media only screen and (max-width: 991px) {
     .hero-area .section-content {
-        grid-template-columns: 235px 1fr
+        grid-template-columns: 10px 1fr
     }
 }
 
