@@ -3714,6 +3714,8 @@
 :root {
     --font_kanit: "Kanit", sans-serif;
     --font_awesome: "Font Awesome 6 Free"
+    --font_poppins: "Poppins", sans-serif; /* Add Poppins here */
+
 }
 
 * {
@@ -9233,7 +9235,7 @@ section {
 }
 /* font hereee */
 .hero-area .section-header .section-title {
-    /* font-family: */
+    font-family: var(--font_poppins); /* Apply Poppins */
     font-size: 120px;
     font-weight: 700;
     line-height: 1
