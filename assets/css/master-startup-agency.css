@@ -5788,7 +5788,7 @@ section {
     color: var(--white);
     background-color: #00ed85;
     border: 1px solid #00ed85;
-    border-radius: 15px;
+    border-radius: 40px;
     text-transform: capitalize;
     transition: all .3s;
     display: inline-flex;
@@ -8834,8 +8834,8 @@ section {
     padding: 30px 50px;
     font-weight: 500;
     font-size: 18px;
-    background-color: var(--theme);
-    border-color: var(--theme);
+    /* background-color: var(--theme); */
+    /* border-color: var(--theme); */
     color: var(--white)
 }
 
@@ -8846,7 +8846,7 @@ section {
 }
 
 .dark .wc-btn-primary {
-    color: var(--white)
+    color: var(--black)
 }
 
 .dark .wc-btn-primary:hover {
@@ -8907,7 +8907,7 @@ section {
 
 .header-area .wc-btn-primary {
     padding: 14px 25px;
-    color: var(--white)
+    color: var(--black)
 }
 
 @media only screen and (max-width: 991px) {
